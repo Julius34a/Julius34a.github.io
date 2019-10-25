@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+/* font-family: 'Raleway', sans-serif; {}  */
+/* Orange #F26101 */
+/* Bleu Foncé #91BED4 */
+/* Bleu Clair #D9E8F6 */
+
+/*#################################################################################*/
+
+/* header */
+
+.container-fluid-header {
+	background-color: #D9E8F6;
+	height: 200px;
+	line-height: 70px;
+	text-decoration: none;
+	text-align: center;
+
+}
+
+.developpeur {
+	color: #F26101;
+	background-color: #D9E8F6
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-top: 50px;
+	padding-left: 200px;
+
+} 
+
+.menu {
+	background-color: #D9E8F6
+	
+}
+
+.menu a {
+	color: #ffffff;
+	margin-right: 20px;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.menu a:hover {
+	color: #2c3e50;
+
+}
+
+.prenom {
+	color: #F26101;
+	text-align: center;
+
+}
+
+/* COORDONNEES */
+
+.container-fluid-num {
+	width: 18%;
+	height: 1500px;
+	background-color: #91BED4;
+	float: left;
+	
+}
+
+.numeros {
+	text-align: center;
+	width: 300px;
+	margin-right: 50px;
+	
+}
+
+
+/* ICONES SOCIALES */
+
+.social {
+	text-align: center;
+	width: 300px;
+	
+}
+
+.link {
+	font-size: 40px;
+
+}
+
+.git {
+	font-size: 40px;
+
+}
+
+/* bannniere */
+
+.banner {
+	width: 100%;
+	max-width: 100%;
+	background-color: #91BED4;
+
+}
+
+.ban {
+	width: 100%
+	max-width:100%;
+
+}
+
+.inner-banner-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.inner-banner h1 {
+	color: #F26101;
+	text-shadow:  1px 1px 20px #000000;
+}
+
+
+.bloc-principal {
+	width: 82%;
+	float: right;
+
+}
+
+/* about */
+
+.container-fluid-about {
+	padding-bottom: 10px;
+}
+
+.apropos {
+	color: #F26101;
+	text-decoration: underline;
+	padding-top: 30px;
+}
+
+/* formation */
+
+.formation {
+	text-align: center;
+	color: #F26101;
+	text-decoration: underline;
+	padding-top: 20px;
+}
+
+.diplome {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+/*LANGUES*/
+
+.langues {
+	text-align: center;
+	color: #F26101;
+	text-decoration: underline;
+	padding-top: 20px;
+
+}
+
+.languesbis {
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+
+/* CENTRES D'INTERETS*/
+
+.interet {
+	text-align: center;
+	color: #F26101;
+	text-decoration: underline;
+	padding-top: 20px;
+}
+
+.interetbis {
+	font-size: 30px;
+	text-align: center;
+} 
+
+/* competences */
+
+.competences {
+	color: #F26101;
+	text-decoration: underline;
+	padding-top: 30px;
+}
+
+.icones {
+	display: flex;
+	text-align: center;
+	height: 90px;
+	font-size: 80px;
+	justify-content: space-around;
+}
+
+/* experiences */
+
+.manipulateur {
+	width: 82%;
+	float: right;
+	
+} 
+.radiologie {
+	color: #F26101;
+}
+
+.radio {
+	color: #91BED4;
+} 
+
+.container-fluid-experiences {
+	display: flex;
+	padding-left: 125px;
+}
+.experiences {
+	display: flex;
+	color: #F26101;
+	text-decoration: underline;
+	padding-top: 30px;
+	
+} 
+
+/*IMAGES A CALER#########################################*/
+
+.source {
+	
+
+}
+
+.genolier {
+	
+
+}
+
+.epalinges {
+	
+
+}
+
+.millenaire {
+	
+
+}
+
+/*IMAGES A CALER#########################################*/
