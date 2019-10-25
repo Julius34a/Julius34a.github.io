@@ -83,13 +83,30 @@ a {
 
 .link {
 	font-size: 40px;
+	text-decoration: none;
+	color: black;
 
+}
+
+.link a:hover {
+	text-decoration: none;
+	color: black;
 }
 
 .git {
 	font-size: 40px;
+	color: black;
 
 }
+
+
+.git a:hover {
+	text-decoration: none;
+	color: black;
+
+
+}
+
 
 /* bannniere */
 
@@ -184,6 +201,13 @@ a {
 	text-align: center;
 } 
 
+.camera {
+	text-decoration: none;
+}
+
+.camera a:hover {
+	text-decoration: none;
+}
 /* competences */
 
 .competences {
