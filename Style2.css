@@ -96,15 +96,12 @@ a {
 .git {
 	font-size: 40px;
 	color: black;
-
 }
 
 
 .git a:hover {
 	text-decoration: none;
 	color: black;
-
-
 }
 
 .flickr {
@@ -116,6 +113,17 @@ a {
 	text-decoration: none;
 	color: black;
 }
+
+.cv {
+	font-size: 40px;
+	color: black;
+}
+
+.cv a:hover {
+	text-decoration: none;
+	color: black;
+}
+
 
 
 /* bannniere */
