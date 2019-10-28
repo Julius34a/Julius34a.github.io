@@ -72,16 +72,22 @@ a {
 	
 }
 
+.mailto {
+	color: black;
+}
+
+.mailto:hover {
+	color: #F26101;
+}
 
 /* ICONES SOCIALES */
 
 .social {
 	text-align: center;
 	width: 300px;
-	
 }
 
-.link {
+.link a {
 	font-size: 40px;
 	text-decoration: none;
 	color: black;
@@ -90,38 +96,7 @@ a {
 
 .link a:hover {
 	text-decoration: none;
-	color: black;
-}
-
-.git {
-	font-size: 40px;
-	color: black;
-}
-
-
-.git a:hover {
-	text-decoration: none;
-	color: black;
-}
-
-.flickr {
-	font-size: 40px;
-	color: black;
-}
-
-.flickr a:hover {
-	text-decoration: none;
-	color: black;
-}
-
-.cv {
-	font-size: 40px;
-	color: black;
-}
-
-.cv a:hover {
-	text-decoration: none;
-	color: black;
+	color: #F26101;
 }
 
 
