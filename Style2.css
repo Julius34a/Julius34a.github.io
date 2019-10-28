@@ -29,7 +29,7 @@
 
 } 
 
-.menu {
+/* .menu {
 	background-color: #D9E8F6
 	
 }
@@ -40,15 +40,17 @@
 
 }
 
+.menu a:hover {
+	color: #2c3e50;
+
+}
+*/
+
 a {
 	text-decoration: none;
 
 }
 
-.menu a:hover {
-	color: #2c3e50;
-
-}
 
 .prenom {
 	color: #F26101;
@@ -59,8 +61,8 @@ a {
 /* COORDONNEES */
 
 .container-fluid-num {
-	width: 18%;
-	height: max-height;
+	width: 22%;
+	height: 1750px;
 	background-color: #91BED4;
 	float: left;
 	
@@ -68,8 +70,6 @@ a {
 
 .numeros {
 	text-align: center;
-	width: 300px;
-	margin-right: 50px;
 	
 }
 
@@ -87,7 +87,6 @@ a {
 
 .social {
 	text-align: center;
-	width: 300px;
 
 }
 
@@ -136,7 +135,7 @@ a {
 
 
 .bloc-principal {
-	width: 82%;
+	width: 78%;
 	float: right;
 
 }
@@ -145,7 +144,8 @@ a {
 
 .container-fluid-about {
 	padding-bottom: 10px;
-
+	width: 78%;
+	padding-left: 80px;
 }
 
 .apropos {
@@ -201,7 +201,10 @@ a {
 .interetbis {
 	font-size: 30px;
 	text-align: center;
-
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
 } 
 
 .camera {
@@ -235,7 +238,7 @@ a {
 /* EXPERIENCES */
 
 .manipulateur {
-	width: 82%;
+	width: 78%;
 	float: right;
 	
 } 
@@ -252,7 +255,7 @@ a {
 
 .container-fluid-experiences {
 	display: flex;
-	padding-left: 125px;
+	padding-left: 80px;
 
 }
 .experiences {
@@ -263,3 +266,54 @@ a {
 	
 } 
 
+/* PORTFOLIO 
+
+div#slider figure img {
+	width: 150px; 
+	height: auto;
+	height: auto; 
+	float: left;
+}
+
+div#slider {
+	width: 80%; 
+	height: auto;
+	max-width: 150px; 
+	overflow: hidden;
+}
+
+@keyframes slidy {
+	0% { left: 0%; }
+	5.88% { left: -25%; }
+	11.76% {left: -50%; }
+	17.64% {left: -75%; }
+	23.52% {left: -100%; }
+	29.4% {left: -125%; }
+	35.28% {left: -150%; }
+	41.16% {left: -175%; }
+	47.04% {left: -200%; }
+	52.92% {left: -225%; }
+	58.8% {left: -250%; }
+	64.68% {left: -275%; }
+	70.56% {left: -300%; }
+	76.44% {left: -325%; }
+	82.32% {left: -350%; }
+	88.2% {left: -375%; }
+	94.08% {left: -400%; }
+	100% {left: -425%; }
+
+}
+
+div#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	left: 0;
+	text-align: left;
+	animation: 20s slidy infinite;
+
+}
+
+END PORTFOLIO */
