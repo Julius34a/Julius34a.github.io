@@ -7,7 +7,7 @@
 
 /*#################################################################################*/
 
-/* header */
+/* HEADER */
 
 .container-fluid-header {
 	background-color: #D9E8F6;
@@ -42,6 +42,7 @@
 
 a {
 	text-decoration: none;
+
 }
 
 .menu a:hover {
@@ -74,10 +75,12 @@ a {
 
 .mailto {
 	color: black;
+
 }
 
 .mailto:hover {
 	color: #F26101;
+
 }
 
 /* ICONES SOCIALES */
@@ -85,6 +88,7 @@ a {
 .social {
 	text-align: center;
 	width: 300px;
+
 }
 
 .link a {
@@ -97,11 +101,10 @@ a {
 .link a:hover {
 	text-decoration: none;
 	color: #F26101;
+
 }
 
-
-
-/* bannniere */
+/* BANNIERE */
 
 .banner {
 	width: 100%;
@@ -122,11 +125,13 @@ a {
 	left: 0;
 	width: 100%;
 	text-align: center;
+
 }
 
 .inner-banner h1 {
 	color: #F26101;
 	text-shadow:  1px 1px 20px #000000;
+
 }
 
 
@@ -136,25 +141,28 @@ a {
 
 }
 
-/* about */
+/* ABOUT */
 
 .container-fluid-about {
 	padding-bottom: 10px;
+
 }
 
 .apropos {
 	color: #F26101;
 	text-decoration: underline;
 	padding-top: 30px;
+
 }
 
-/* formation */
+/* FORMATION */
 
 .formation {
 	text-align: center;
 	color: #F26101;
 	text-decoration: underline;
 	padding-top: 20px;
+
 }
 
 .diplome {
@@ -187,26 +195,32 @@ a {
 	color: #F26101;
 	text-decoration: underline;
 	padding-top: 20px;
+
 }
 
 .interetbis {
 	font-size: 30px;
 	text-align: center;
+
 } 
 
 .camera {
 	text-decoration: none;
+
 }
 
 .camera a:hover {
 	text-decoration: none;
+
 }
-/* competences */
+
+/* COMPETENCES */
 
 .competences {
 	color: #F26101;
 	text-decoration: underline;
 	padding-top: 30px;
+
 }
 
 .icones {
@@ -215,9 +229,10 @@ a {
 	height: 90px;
 	font-size: 80px;
 	justify-content: space-around;
+
 }
 
-/* experiences */
+/* EXPERIENCES */
 
 .manipulateur {
 	width: 82%;
@@ -226,15 +241,18 @@ a {
 } 
 .radiologie {
 	color: #F26101;
+
 }
 
 .radio {
 	color: #91BED4;
+
 } 
 
 .container-fluid-experiences {
 	display: flex;
 	padding-left: 125px;
+
 }
 .experiences {
 	display: flex;
@@ -244,26 +262,3 @@ a {
 	
 } 
 
-/*IMAGES A CALER#########################################*/
-
-.source {
-	
-
-}
-
-.genolier {
-	
-
-}
-
-.epalinges {
-	
-
-}
-
-.millenaire {
-	
-
-}
-
-/*IMAGES A CALER#########################################*/
