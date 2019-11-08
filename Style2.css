@@ -7,6 +7,11 @@
 
 /*#################################################################################*/
 
+body {
+	font-family: 'Raleway', sans-serif;
+
+}
+
 /* HEADER */
 
 .container-fluid-header {
@@ -18,33 +23,37 @@
 
 }
 
+.container{
+	width: 100%;
+	margin: 0;
+
+}
+
+.faux {
+	width: 100%;
+
+}
+
+.faux2 {
+	height: 200px;
+
+}
+
 .developpeur {
+	display: flex;
+	align-items: center;
 	color: #F26101;
 	background-color: #D9E8F6
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 1px;
-	padding-top: 50px;
-	padding-left: 200px;
-
+	width: 100%;
+	
 } 
 
-/* .menu {
-	background-color: #D9E8F6
-	
-}
-
-.menu a {
-	color: #ffffff;
-	margin-right: 20px;
+h1 {
 
 }
-
-.menu a:hover {
-	color: #2c3e50;
-
-}
-*/
 
 a {
 	text-decoration: none;
@@ -52,14 +61,15 @@ a {
 }
 
 .JB {
+	
 	width: 100%;
 }
+
 .prenom {
 	padding-top: 30px;
 	padding-bottom: 15px;
 	color: #F26101;
 	text-align: center;
-
 
 }
 
@@ -67,7 +77,7 @@ a {
 
 .container-fluid-num {
 	width: 22%;
-	height: 2000px;
+	height: 2100px;
 	background-color: #91BED4;
 	float: left;
 	
@@ -212,6 +222,7 @@ a {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
+
 } 
 
 .camera {
@@ -249,6 +260,7 @@ a {
 	float: right;
 	
 } 
+
 .radiologie {
 	color: #F26101;
 	text-decoration: underline;
@@ -265,6 +277,7 @@ a {
 	padding-left: 80px;
 
 }
+
 .experiences {
 	display: flex;
 	color: #F26101;
@@ -272,55 +285,3 @@ a {
 	padding-top: 30px;
 	
 } 
-
-/* PORTFOLIO 
-
-div#slider figure img {
-	width: 150px; 
-	height: auto;
-	height: auto; 
-	float: left;
-}
-
-div#slider {
-	width: 80%; 
-	height: auto;
-	max-width: 150px; 
-	overflow: hidden;
-}
-
-@keyframes slidy {
-	0% { left: 0%; }
-	5.88% { left: -25%; }
-	11.76% {left: -50%; }
-	17.64% {left: -75%; }
-	23.52% {left: -100%; }
-	29.4% {left: -125%; }
-	35.28% {left: -150%; }
-	41.16% {left: -175%; }
-	47.04% {left: -200%; }
-	52.92% {left: -225%; }
-	58.8% {left: -250%; }
-	64.68% {left: -275%; }
-	70.56% {left: -300%; }
-	76.44% {left: -325%; }
-	82.32% {left: -350%; }
-	88.2% {left: -375%; }
-	94.08% {left: -400%; }
-	100% {left: -425%; }
-
-}
-
-div#slider figure {
-	position: relative;
-	width: 500%;
-	margin: 0;
-	padding: 0;
-	font-size: 0;
-	left: 0;
-	text-align: left;
-	animation: 20s slidy infinite;
-
-}
-
-END PORTFOLIO */
