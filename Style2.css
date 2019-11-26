@@ -4,6 +4,7 @@
 /* Orange #F26101 */
 /* Bleu Foncé #91BED4 */
 /* Bleu Clair #D9E8F6 */
+/* Bleu Foncé 2 #73A4D8 */
 
 /*#################################################################################*/
 
@@ -13,69 +14,31 @@ body {
 }
 
 /* HEADER */
-
-.container-fluid-header {
-	background-color: #D9E8F6;
-	height: 200px;
-	line-height: 70px;
-	text-decoration: none;
-	text-align: center;
-
-}
-
-.container{
+.banner {
 	width: 100%;
-	margin: 0;
-
-}
-
-.faux {
-	width: 100%;
-
-}
-
-.faux2 {
 	height: 200px;
-
-}
-
-.developpeur {
 	display: flex;
-	align-items: center;
-	color: #F26101;
-	background-color: #D9E8F6
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 1px;
-	width: 100%;
-	
+	justify-content: space-around;
+	background-size: cover;
+	background-color: #91BED4;
+
 } 
 
-h1 {
+.bannerLeft {
+	width: 60%;
+	height: 200px;	
 
 }
 
-a {
-	text-decoration: none;
+.bannerRight {
+	height: 200px;
 
 }
+/* end HEADER */
 
-.JB {
-	
-	width: 100%;
-}
+/* ############################################################################################## */
 
-.prenom {
-	padding-top: 30px;
-	padding-bottom: 15px;
-	color: #F26101;
-	text-align: center;
-
-}
-
-/* COORDONNEES */
-
-.container-fluid-num {
+.blocLeft {
 	width: 22%;
 	height: 2100px;
 	background-color: #91BED4;
@@ -83,7 +46,27 @@ a {
 	
 }
 
-.numeros {
+/* LOGO JB */
+.JB {
+	width: 100%;
+		
+}
+/* end LOGO JB */
+
+
+/* 	PRENOM */
+.prenom {
+	padding-top: 30px;
+	padding-bottom: 15px;
+	color: #F26101;
+	text-align: center;
+
+}
+/* 	end PRENOM */
+
+
+/* COORDONNEES */
+.coordonnees {
 	text-align: center;
 	
 }
@@ -98,9 +81,15 @@ a {
 
 }
 
-/* ICONES SOCIALES */
+a {
+	text-decoration: none;
 
-.social {
+}
+/* end COORDONNEES */
+
+
+/* ICONES SOCIALES */
+.link {
 	text-align: center;
 
 }
@@ -117,61 +106,10 @@ a {
 	color: #F26101;
 
 }
+/* end ICONES SOCIALES */
 
-/* BANNIERE */
-
-.banner {
-	width: 100%;
-	max-width: 100%;
-	background-color: #91BED4;
-
-}
-
-.ban {
-	width: 100%
-	max-width:100%;
-
-}
-
-.inner-banner-text {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	text-align: center;
-
-}
-
-.inner-banner h1 {
-	color: #F26101;
-	text-shadow:  1px 1px 20px #000000;
-
-}
-
-
-.bloc-principal {
-	width: 78%;
-	float: right;
-
-}
-
-/* ABOUT */
-
-.container-fluid-about {
-	padding-bottom: 10px;
-	width: 78%;
-	padding-left: 80px;
-}
-
-.apropos {
-	color: #F26101;
-	text-decoration: underline;
-	padding-top: 30px;
-
-}
 
 /* FORMATION */
-
 .formation {
 	text-align: center;
 	color: #F26101;
@@ -186,9 +124,9 @@ a {
 	padding-bottom: 20px;
 
 }
+/* end FORMATION */
 
-/*LANGUES*/
-
+/* LANGUES */
 .langues {
 	text-align: center;
 	color: #F26101;
@@ -203,9 +141,10 @@ a {
 	padding-bottom: 20px;
 
 }
+/* end LANGUES*/
 
-/* CENTRES D'INTERETS*/
 
+/* CENTRES D'INTERETS */
 .interet {
 	text-align: center;
 	color: #F26101;
@@ -234,9 +173,33 @@ a {
 	text-decoration: none;
 
 }
+/* end CENTRES D'INTERETS */
+
+/* ############################################################################################## */
+
+.blocRight {
+	width: 78%;
+	float: right;
+
+}
+
+/* ABOUT */
+.container-fluid-about {
+	padding-bottom: 10px;
+	width: 78%;
+	padding-left: 80px;
+}
+
+.apropos {
+	color: #F26101;
+	text-decoration: underline;
+	padding-top: 30px;
+
+}
+/* end ABOUT */
+
 
 /* COMPETENCES */
-
 .competences {
 	color: #F26101;
 	text-decoration: underline;
@@ -252,9 +215,10 @@ a {
 	justify-content: space-around;
 
 }
+/* end COMPETENCES */
+
 
 /* EXPERIENCES */
-
 .manipulateur {
 	width: 78%;
 	float: right;
@@ -284,4 +248,7 @@ a {
 	text-decoration: underline;
 	padding-top: 30px;
 	
-} 
+}
+/* end EXPERIENCES */ 
+
+/* ############################################################################################## */
