@@ -27,7 +27,8 @@ body {
 .bannerLeft {
 	width: 60%;
 	height: 200px;	
-
+	text-align: center;
+	
 }
 
 .bannerRight {
